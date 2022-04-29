@@ -1,0 +1,22 @@
+body{
+    background-color: lightgray;
+}
+.contact li{
+    list-style-type: none;
+}
+footer{
+    text-align: center;
+}
+.profile img{
+    border-radius: 40px;
+    float: right;
+    margin-right: 100px;
+}
+.license img{
+    border-radius: 40px;
+    padding: 20px 20px 20px 20px;
+}
+.pet img{
+    border-radius: 40px;
+    padding: 20px 20px 20px 20px;
+}
