@@ -1,22 +1,79 @@
 body{
     background-color: lightgray;
+    width: 60%;
+    margin: 0 auto;
+    padding:40px 80px;
 }
-.contact li{
-    list-style-type: none;
+hr{
+    position: relative;
+    height: 2px;
+    background: black;
+}
+h1{
+    width: 100px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 20px;
+    border: 5px solid #7c8a84;
+    background-color: #424242;
+    color: #fff;
+    font-size: 200%;
+    text-align: center;
+    line-height: 1;
 }
 footer{
     text-align: center;
 }
 .profile img{
-    border-radius: 40px;
     float: right;
-    margin-right: 100px;
+    border-radius: 40px;
+    margin-left: 100px;
 }
 .license img{
     border-radius: 40px;
     padding: 20px 20px 20px 20px;
 }
+.license p{
+    text-align: justify;
+    width: 400px;
+}
 .pet img{
     border-radius: 40px;
     padding: 20px 20px 20px 20px;
+}
+.contact li{
+    list-style-type: none;
+    display: inline-block;
+    width: 250px;
+    margin: 10px;
+}
+.contact a{
+    text-align: center;
+    display: block;
+    padding: 10px;
+    background: #424242;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+}
+.contact a:hover{
+    background: #7c7c7c;
+}
+.education li{
+    list-style-type: none;
+    display: inline-block;
+    width: 250px;
+    margin: 10px 10px;
+}
+.education a{
+    text-align: center;
+    display: block;
+    padding: 10px;
+    background: #424242;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+}
+.education a:hover{
+    background: #7c7c7c;
 }
