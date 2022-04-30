@@ -4,24 +4,29 @@ body{
     margin: 0 auto;
     padding:40px 80px;
 }
+
 .me{
     background-color: rgb(197, 195, 195);
     padding: 17px;
     font-weight: bold;
 }
+
 hr{
     position: relative;
     height: 2px;
     background: black;
 }
+
 .name{   
     width: 65%;
     float: left;
 }
+
 .introduction{
     width: 65%;
     padding-left: 30px; 
 }
+
 h1{
     width: 150px;
     padding: 30px;
@@ -48,17 +53,21 @@ footer{
     border-radius: 40px;
     padding: 20px 20px 20px 20px;
 }
+
 .license p{
     text-align: left;
     width: 100%;
 }
+
 .pet img{
     border-radius: 40px;
     padding: 20px 20px 20px 20px;
 }
+
 .contact{
     width: 100%;
 }
+
 .contact li{
     list-style-type: none;
     width: 250px;
@@ -67,6 +76,7 @@ footer{
  
     
 }
+
 .contact a{
     text-align: center;
     display: block;
@@ -76,15 +86,18 @@ footer{
     text-decoration: none;
     margin-left: 10px;
 }
+
 .contact a:hover{
     background: #b4b1b1;
 }
+
 .education li{
     
     width: 250px;
     margin: 10px 10px;
     
 }
+
 .education a{
     text-align: left;
     display: block;
@@ -94,12 +107,15 @@ footer{
     text-decoration: none;
     
 }
+
 .education a:hover{
     background: #b4b1b1;
 }
+
 .expectation dl{
     padding-left: 30px;
 }
+
 .description{
     padding-left: 30px;
 }
