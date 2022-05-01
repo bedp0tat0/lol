@@ -119,3 +119,7 @@ footer{
 .description{
     padding-left: 30px;
 }
+dd{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
